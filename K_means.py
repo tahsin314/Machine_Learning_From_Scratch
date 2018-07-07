@@ -1,10 +1,11 @@
 """This code visualize K means- clustered data with three classes. I used iris data
  from sklearn.load dataset. There are some bugs associated with this. Most of them
 are due to bugs in matplotlib."""
-from sklearn import datasets
-import random 
-import numpy as np 
+import random
+
+import numpy as np
 from matplotlib import pyplot as plt
+from sklearn import datasets
 
 K = np.zeros(3)
 iris = datasets.load_iris()

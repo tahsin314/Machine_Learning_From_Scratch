@@ -5,10 +5,10 @@ I used bangla digit data for testing. You can use any other data
 you want.
 """
 
-import numpy as np
 import matplotlib.pyplot as plt
-from tqdm import tqdm
+import numpy as np
 from sklearn.utils import shuffle
+from tqdm import tqdm
 
 
 class logisticRegression():
